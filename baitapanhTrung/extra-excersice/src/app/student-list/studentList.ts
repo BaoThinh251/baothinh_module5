@@ -6,7 +6,7 @@ export const studentList: IStudent[] = [
     name: 'Nguyễn Việt Dũng',
     age: 18,
     mark: 7,
-    avatar: 'src/assets/img/VD.jpg'
+    avatar: '../assets/img/VD.jpg'
   },
 
   {
@@ -14,7 +14,7 @@ export const studentList: IStudent[] = [
     name: 'Trần Hữu Kiên',
     age: 18,
     mark: 7,
-    avatar: 'src/assets/img/HAD.jpg'
+    avatar: '../assets/img/HK.jpg'
   },
 
   {
@@ -22,7 +22,7 @@ export const studentList: IStudent[] = [
     name: 'Hồ Anh Dũng',
     age: 18,
     mark: 7,
-    avatar: 'src/assets/img/HAD.jpg'
+    avatar: '../assets/img/HAD.png'
   },
 
   {
@@ -30,6 +30,6 @@ export const studentList: IStudent[] = [
     name: 'Văn Phúc',
     age: 18,
     mark: 7,
-    avatar: 'src/assets/img/VP.jpg'
+    avatar: '../assets/img/VP.jpg'
   },
 ];

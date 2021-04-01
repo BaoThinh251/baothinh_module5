@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { StudentInfoComponent } from './student-info/student-info.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import {FormsModule} from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {FormsModule} from '@angular/forms';
   ],
     imports: [
         BrowserModule,
-        FormsModule
+        FormsModule,
+        NgbModule
     ],
   providers: [],
   bootstrap: [AppComponent]
